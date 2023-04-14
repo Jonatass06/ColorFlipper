@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" style="height:100%">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,21 @@
     <title>Cores</title>
 </head>
 <body>
+    <header>
+        <p style="color: #587ff3">Color Flipper</p>
+        <div>
+            <a onclick="Simples()" style="margin-right: 10vh;">Simples</a>
+            <a onclick="Hex()">Hex</a>
+        </div>
+    </header>
+
+    <div id="div" class="output">
+        <div id="mostraCor">
+            <bold><p style="color:white;">Background Color: <spam id="corHtml" style="color: #587ff3">#ffffff</spam></p></bold>
+        </div>
+        <button id="botaoHtml" onclick="selecionaCor()">Trocar de Cor</button>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
